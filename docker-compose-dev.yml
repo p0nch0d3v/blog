@@ -4,9 +4,10 @@ services:
     image: python:3
     command: >
       bash -c "cd /app && 
-               pip install --requirement requirements.txt &&
-               mkdocs build &&
-               mkdocs serve"
+              pip install mkdocs mkdocs-material &&
+              pip freeze > requirements.txt &&
+              mkdocs build &&
+              mkdocs serve"
     volumes:
       - .:/app
     ports:
