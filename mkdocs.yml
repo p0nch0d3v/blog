@@ -1,5 +1,6 @@
 site_name: Blog
-dev_addr: 0.0.0.0:8080
+dev_addr: 0.0.0.0:80
+copyright: 'Copyright &copy; 2021 Sneaky Koder'
 
 theme:
   name: material
