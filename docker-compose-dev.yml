@@ -4,7 +4,9 @@ services:
     image: python:3
     command: >
       bash -c "cd /app && 
-              pip install mkdocs mkdocs-material &&
+              pip install mkdocs \
+              mkdocs-material \
+              mkdocs-blogging-plugin &&
               pip freeze > requirements.txt &&
               mkdocs build &&
               mkdocs serve"

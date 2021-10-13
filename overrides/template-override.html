@@ -1,0 +1,10 @@
+{% macro render_blog(title, description, time, url) -%}
+  <a href="{{ url }}">
+    <h3>{{ title }}</h3>
+  </a>
+  <div>{{ description }}</div>
+  <hr/>
+  {{ caller() }}
+{%- endmacro %}
+
+{% extends "blog.html" %}
