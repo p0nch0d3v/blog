@@ -4,6 +4,9 @@ copyright: 'Copyright &copy; 2021 Sneaky Koder'
 
 nav:
   - Home: index.md
+  - Posts:
+    - 'My Docker CLI''s': blog/my-docker-clis.md
+
 markdown_extensions:
   - attr_list
 
