@@ -4,6 +4,22 @@ copyright: 'Copyright &copy; 2021 Sneaky Koder'
 
 nav:
   - Home: index.md
+  - Posts:
+    - 'My Docker CLI''s': blog/my-docker-clis.md
+
+markdown_extensions:
+  - attr_list
+
+plugins:
+  - blogging:
+      dirs:
+        - blog
+      size: 10
+      locale: en
+      paging: true
+      show_total: true
+      template: overrides/template-override.html
+
 theme:
   logo: assets/logo.png
   name: material
