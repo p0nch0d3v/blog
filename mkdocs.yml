@@ -1,6 +1,7 @@
 site_name: Blog
 dev_addr: 0.0.0.0:80
 copyright: 'Copyright &copy; 2021 Sneaky Koder'
+site_url: !ENV ["SITE_URL", "http://localhost:8080"]
 
 nav:
   - Home: index.md
