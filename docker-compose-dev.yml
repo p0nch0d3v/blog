@@ -6,7 +6,9 @@ services:
       bash -c "cd /app && 
               pip install mkdocs \
               mkdocs-material \
-              mkdocs-blogging-plugin &&
+              mkdocs-blogging-plugin \
+              pyyaml \
+              pyyaml_env_tag &&
               pip freeze > requirements.txt &&
               mkdocs build &&
               mkdocs serve"
@@ -14,3 +16,5 @@ services:
       - .:/app
     ports:
       - 8080:80
+    environment:
+       - SITE_URL=http://127.0.0.1/       
