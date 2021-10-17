@@ -10,6 +10,7 @@ nav:
 
 markdown_extensions:
   - attr_list
+  - meta
 
 plugins:
   - blogging:
@@ -23,6 +24,7 @@ plugins:
 theme:
   logo: assets/logo.png
   name: material
+  custom_dir: overrides
   palette:
     - media: "(prefers-color-scheme: light)" 
       scheme: default
