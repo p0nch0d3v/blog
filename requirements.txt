@@ -10,7 +10,7 @@ MarkupSafe==2.0.1
 mergedeep==1.3.4
 mkdocs==1.2.3
 mkdocs-blogging-plugin==0.2.2
-mkdocs-material==7.3.3
+mkdocs-material==7.3.4
 mkdocs-material-extensions==1.0.3
 packaging==21.0
 Pygments==2.10.0

@@ -12,11 +12,16 @@ So I took the decision to create a set of docker images with some pre-installed 
 ## python:3
 ### Docker image:
 > [https://hub.docker.com/r/sneakykoder/python-cli](https://hub.docker.com/r/sneakykoder/python-cli){:target="_blank"}.
-### Github repository: 
+### Repository: 
 > [https://github.com/sneakykoder/python-cli](https://github.com/sneakykoder/python-cli){:target="_blank"}
 ### How to use it:
 ```
-docker run --rm --interactive --tty -v ${PWD}:/app sneakykoder/python-cli:3 bash
+docker run \
+--rm \
+--interactive \
+--tty \
+--volume ${PWD}:/app sneakykoder/python-cli:3 \
+bash
 ```
 ---
 ## dotnet core with entity framework
@@ -26,15 +31,26 @@ docker run --rm --interactive --tty -v ${PWD}:/app sneakykoder/python-cli:3 bash
 > [https://github.com/sneakykoder/dotnet-cli](https://github.com/sneakykoder/dotnet-cli){:target="_blank"} 
 ### How to use it
 ```
-docker run --rm --interactive --tty -v ${PWD}:/app sneakykoder/dotnet-cli bash
+docker run \
+--rm \
+--interactive \
+--tty \
+--volume ${PWD}:/app sneakykoder/dotnet-cli \
+bash
 ```
 ---
 ## dotnet core with entity framework and node-js
 ### Docker image:
 > [https://hub.docker.com/r/sneakykoder/dotnet-node-cli](https://hub.docker.com/r/sneakykoder/dotnet-node-cli){:target="_blank"}
-### Github repository:
+### Repository:
 > [https://github.com/sneakykoder/dotnet-node-cli](https://github.com/sneakykoder/dotnet-node-cli){:target="_blank"}
 ### How to use it:
 ```
-docker run --rm --interactive --tty -v ${PWD}:/app sneakykoder/dotnet-node-cli bash
+docker run \
+--rm \
+--interactive \
+--tty \
+--volume ${PWD}:/app sneakykoder/dotnet-node-cli \
+bash
 ```
+---
