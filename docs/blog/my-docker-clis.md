@@ -20,7 +20,8 @@ docker run \
 --rm \
 --interactive \
 --tty \
---volume ${PWD}:/app sneakykoder/python-cli:3 \
+--volume ${PWD}:/app \
+sneakykoder/python-cli:3 \
 bash
 ```
 ---
@@ -35,7 +36,8 @@ docker run \
 --rm \
 --interactive \
 --tty \
---volume ${PWD}:/app sneakykoder/dotnet-cli \
+--volume ${PWD}:/app \
+sneakykoder/dotnet-cli \
 bash
 ```
 ---
@@ -50,7 +52,8 @@ docker run \
 --rm \
 --interactive \
 --tty \
---volume ${PWD}:/app sneakykoder/dotnet-node-cli \
+--volume ${PWD}:/app \
+sneakykoder/dotnet-node-cli \
 bash
 ```
 ---
