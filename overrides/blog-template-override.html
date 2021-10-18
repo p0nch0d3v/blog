@@ -1,12 +1,8 @@
 {% macro render_blog(title, description, time, url) -%}
   <a href="{{ url }}">
-    <h3>{{ url }}</h3>
     <h3>{{ title }}</h3>
   </a>
   <div>{{ description }}</div>
-  <i style="color: gray;">
-    {{ ("Updated" if is_revision else "Published") + " at: " + time }}
-  </i>
   <hr/>
   {{ caller() }}
 {%- endmacro %}

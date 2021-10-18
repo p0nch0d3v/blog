@@ -20,6 +20,7 @@ plugins:
       locale: en
       paging: true
       show_total: true
+      template: overrides/blog-template-override.html
 
 theme:
   logo: assets/logo.png
