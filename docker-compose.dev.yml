@@ -1,0 +1,12 @@
+version: '3'
+services:
+  site:
+    image: node:lts
+    command: >
+      bash -c "cd /app && 
+              npm install &&
+              npm run docs:dev"
+    volumes:
+      - .:/app
+    ports:
+      - 8080:8080
