@@ -1,12 +1,10 @@
-FROM python:3 as build
-ARG SITE_URL=http://localhost/
+FROM node:lts as build
+RUN mkdir /app
 WORKDIR /app
 COPY . /app
-
-RUN pip install --requirement requirements.txt
-ENV SITE_URL=${SITE_URL}
-RUN mkdocs build
-COPY ./robots.txt /app/site/
+RUN npm install
+RUN npm run docs:build
+COPY ./src/robots.txt /app/src/.vuepress/dist
 
 FROM nginx:alpine
-COPY --from=build /app/site /usr/share/nginx/html
+COPY --from=build /app/src/.vuepress/dist /usr/share/nginx/html
