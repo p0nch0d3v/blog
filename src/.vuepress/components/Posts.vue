@@ -1,20 +1,30 @@
 <template>
-  <div class="posts-container">
-    <div v-for="page in pages" v-bind:key="page.id" class="post-card">
-      <div class="post-thumbnail" v-if="page.frontmatter.thumbnail">
+  <div class="posts-container" 
+       v-if="pages && pages.length > 0">
+    <div v-for="page in pages" 
+         v-bind:key="page.id" 
+         class="post-card">
+      <div class="post-thumbnail" 
+           v-if="page.frontmatter.thumbnail">
         <img v-bind:src="page.frontmatter.thumbnail" />
       </div>
       <div class="post-content"
            v-bind:class="{ 'full': !page.frontmatter.thumbnail }">
-        <a class="page-title" v-bind:href="page.path">{{ page.title }}</a>
+        <a class="page-title" 
+           v-bind:href="page.path">{{ page.title }}</a>
         <div class="page-description">{{ page.frontmatter.description }}</div>
-        <div class="page-tags" v-if="page.frontmatter.tags">
-          <span v-for="tag in page.frontmatter.tags" v-bind:key="tag.id">
+        <div class="page-tags" 
+             v-if="page.frontmatter.tags">
+          <span v-for="tag in page.frontmatter.tags" 
+                v-bind:key="tag.id">
             <a v-bind:href="'/tags.html#' + tag">{{tag}}</a>
           </span>
         </div>
       </div>
     </div>
+  </div>
+  <div v-else-if="!pages || pages.length === 0">
+    <i>No posts found yet.</i>
   </div>
 </template>
 
