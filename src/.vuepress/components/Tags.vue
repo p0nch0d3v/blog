@@ -68,18 +68,18 @@ export default {
         border: 1px solid transparent;
         font-weight: 500;
         padding: 0;
-        border-bottom: 1px solid gray;
+        border-bottom: 1px solid lightgray;
     }
     .tag__name {
         font-size: 3vh;
         color: black;
         border: none;
         padding: 0;
-        margin-top: 0;
+        margin: 1vh 0 1vh 0;
     }
     .pages-wrapper {
         list-style: none;
-        padding: 1vh 0 1vh 0;
+        padding: 0 0 1vh 0;
     }
     .page {
         padding: 0;

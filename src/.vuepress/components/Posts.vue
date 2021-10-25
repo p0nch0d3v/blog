@@ -19,7 +19,7 @@
              v-if="page.frontmatter.tags">
           <span v-for="tag in page.frontmatter.tags" 
                 v-bind:key="tag.id">
-            <a v-bind:href="'/tags.html#' + tag">{{'#' + tag}}</a>
+            <a v-bind:href="'/Tags.html#' + tag">{{'#' + tag}}</a>
           </span>
         </div>
       </div>
