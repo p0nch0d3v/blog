@@ -1,6 +1,5 @@
 ---
-meta:
-    - robots: noindex, nofollow
+title: Tags
 ---
 # Tags
 <Tags />
