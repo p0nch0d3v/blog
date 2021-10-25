@@ -1,6 +1,4 @@
 ---
-meta:
-    - robots: noindex, nofollow
 type: article
 thumbnail: /img/docker-logo.png
 title: My docker CLI's
@@ -12,8 +10,8 @@ tags:
     - dotNetCore
     - node-js
 ---
-# {{ $frontmatter.title }} 
-## {{ $frontmatter.description }}
+# My docker CLI's
+## A collection of custom docker images as CLI's
 
 I had the need to run different technologies in my local dev environment, such as .net-core, node js, python, ruby, etc. without install them.
 
