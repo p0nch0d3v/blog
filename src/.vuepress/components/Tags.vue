@@ -72,7 +72,6 @@ export default {
     }
     .tag__name {
         font-size: 3vh;
-        color: black;
         border: none;
         padding: 0;
         margin: 1vh 0 1vh 0;

@@ -11,6 +11,7 @@
   "license": "MIT",
   "devDependencies": {
     "vuepress": "^1.8.2",
-    "vuepress-plugin-code-copy": "^1.0.6"
+    "vuepress-plugin-code-copy": "^1.0.6",
+    "vuepress-theme-default-prefers-color-scheme": "^2.0.0"
   }
 }
