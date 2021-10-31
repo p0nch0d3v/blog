@@ -13,13 +13,13 @@ module.exports = {
             {
                 text: 'About',
                 link: '/About'
-            }
+            },
+            {
+                text: 'Tags',
+                link: '/Tags'        
+           },
         ],
         sidebar: [
-            {
-                 title: 'Tags',
-                 path: '/Tags'        
-            },
             {
                 title: 'Entries',
                 collapsable: false,
