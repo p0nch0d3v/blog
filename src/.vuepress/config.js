@@ -23,12 +23,13 @@ module.exports = {
             {
                 title: 'Entries',
                 collapsable: false,
-                path: '/entry/',
+                path: '/',
                 children: [
-                    '/entry/my-docker-clis'
+                    '/entry/my-docker-clis',
+                    '/entry/how-to-this-blog'
                 ]
             }
         ]
     },
-    plugins: [['vuepress-plugin-code-copy', true ]]
+    plugins: [['vuepress-plugin-code-copy', {align: 'top'} ]]
 }
