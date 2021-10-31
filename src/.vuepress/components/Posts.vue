@@ -14,7 +14,7 @@
            v-bind:class="{ 'full': !page.frontmatter.thumbnail }">
         <a class="page-title" 
            v-bind:href="page.path">{{ page.title }}</a>
-        <div class="page-description">{{ page.frontmatter.description }}</div>
+        <div class="page-description">{{ page.frontmatter.shortDescription }}</div>
         <div class="page-tags" 
              v-if="page.frontmatter.tags">
           <span v-for="tag in page.frontmatter.tags" 

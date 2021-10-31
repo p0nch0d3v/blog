@@ -4,7 +4,7 @@
   "description": "Blog",
   "main": "index.js",
   "scripts": {
-    "docs:dev": "vuepress dev src",
+    "docs:dev": "vuepress dev --no-cache src",
     "docs:build": "vuepress build src"
   },
   "author": "Sneaky Koder",
