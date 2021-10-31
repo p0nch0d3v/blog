@@ -2,7 +2,7 @@
 type: article
 thumbnail: /img/docker-logo.png
 title: My docker CLI's
-description: A collection of custom docker images as CLI's
+shortDescription: A collection of custom docker images as CLI's
 tags:
     - docker
     - bash

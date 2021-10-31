@@ -1,11 +1,13 @@
 version: '3'
 services:
   site:
-    image: node:lts
+    image: node:lts-alpine
     command: >
-      bash -c "cd /app && 
-              npm install &&
-              npm run docs:dev"
+      sh -c "cd /app &&
+             cp src/.vuepress/components/Posts.vue src/.vuepress/public/components &&
+             cp src/.vuepress/components/Tags.vue src/.vuepress/public/components &&
+             npm install &&
+             npm run docs:dev"
     volumes:
       - .:/app
     ports:
