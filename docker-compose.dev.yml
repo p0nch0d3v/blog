@@ -4,11 +4,11 @@ services:
     image: node:lts-alpine
     command: >
       sh -c "cd /app &&
-             cp src/.vuepress/components/Posts.vue src/.vuepress/public/components &&
-             cp src/.vuepress/components/Tags.vue src/.vuepress/public/components &&
              npm install &&
-             npm run docs:dev"
+             npm run start"
     volumes:
       - .:/app
     ports:
       - 8080:8080
+    environment:
+      - SITE_URL=http://localhost:8080

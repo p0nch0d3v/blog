@@ -1,14 +1,8 @@
 ---
-type: article
-thumbnail: /img/docker-logo.png
 title: My docker CLI's
-shortDescription: A collection of custom docker images as CLI's
-tags:
-    - docker
-    - bash
-    - python
-    - dotNetCore
-    - node-js
+slug: my-docker-clis
+tags: [docker, bash, python, dotNetCore, node-js]
+authors: [sneakykoder]
 ---
 # My docker CLI's
 ## A collection of custom docker images as CLI's
@@ -17,7 +11,8 @@ I had the need to run different technologies in my local dev environment, such a
 
 So I took the decision to create a set of docker images with some pre-installed apps/plugins/extensions according to the technology to help with the development process.
 
----
+<!--truncate-->
+
 ## python:3
 ### Docker image:
 > [https://hub.docker.com/r/sneakykoder/python-cli](https://hub.docker.com/r/sneakykoder/python-cli).
@@ -27,7 +22,7 @@ So I took the decision to create a set of docker images with some pre-installed 
 ```bash
 docker run --rm --interactive --tty --volume ${PWD}:/app sneakykoder/python-cli:3 bash
 ```
----
+
 ## dotnet core with entity framework
 ### Docker image:
 > [https://hub.docker.com/r/sneakykoder/dotnet-cli/tags](https://hub.docker.com/r/sneakykoder/dotnet-cli/tags)
@@ -37,7 +32,7 @@ docker run --rm --interactive --tty --volume ${PWD}:/app sneakykoder/python-cli:
 ```bash
 docker run --rm --interactive --tty --volume ${PWD}:/app sneakykoder/dotnet-cli bash
 ```
----
+
 ## dotnet core with entity framework and node-js
 ### Docker image:
 > [https://hub.docker.com/r/sneakykoder/dotnet-node-cli](https://hub.docker.com/r/sneakykoder/dotnet-node-cli)
@@ -47,4 +42,3 @@ docker run --rm --interactive --tty --volume ${PWD}:/app sneakykoder/dotnet-cli 
 ```bash
 docker run --rm --interactive --tty --volume ${PWD}:/app sneakykoder/dotnet-node-cli bash
 ```
----
