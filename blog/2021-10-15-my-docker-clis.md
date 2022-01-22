@@ -1,15 +1,15 @@
 ---
-title: My docker CLI's
-slug: my-docker-clis
+title: Docker CLI's
+slug: docker-clis
 tags: [docker, bash, python, dotNetCore, node-js]
 authors: [sneakykoder]
 ---
-# My docker CLI's
+# Docker CLI's
 ## A collection of custom docker images as CLI's
 
-I had the need to run different technologies in my local dev environment, such as .net-core, node js, python, ruby, etc. without install them.
+There was a need to run different technologies in local dev environment, such as .net-core, node js, python, ruby, etc. without install them.
 
-So I took the decision to create a set of docker images with some pre-installed apps/plugins/extensions according to the technology to help with the development process.
+A decision mas made to create a set of docker images with some pre-installed apps/plugins/extensions according to the technology to help with the development process.
 
 <!--truncate-->
 
