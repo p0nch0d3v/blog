@@ -5,12 +5,17 @@ tags: [git, bash]
 authors: [sneakykoder]
 ---
 # Git snippets
+> Here is a set of some git snippets, useful in some way.
 
 ### Git log
 ```bash
 git log --pretty=oneline --abbrev-commit --graph
 ```
-
+#### Create alias 
+```bash
+git config --global alias.graph-log 'log --pretty=oneline --abbrev-commit --graph'
+```
+---
 ### Git config user
 ```bash
 git config --local user.email ""
