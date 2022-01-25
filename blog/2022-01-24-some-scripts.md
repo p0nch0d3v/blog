@@ -23,6 +23,6 @@ docker volume ls
 docker network ls
 ```
 > [Download bash](https://raw.githubusercontent.com/sneakykoder/scripts-labs/master/docker_clean_up.sh)
-> |
+
 > [Download powershell](https://raw.githubusercontent.com/sneakykoder/scripts-labs/master/docker_clean_up.ps1)
 

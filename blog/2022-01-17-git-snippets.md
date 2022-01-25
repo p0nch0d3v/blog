@@ -10,10 +10,12 @@ authors: [sneakykoder]
 ### Git log
 ```bash
 git log --pretty=oneline --abbrev-commit --graph
+git log --pretty --oneline --graph --abbrev-commit --relative-date
 ```
 #### Create alias 
 ```bash
 git config --global alias.graph-log 'log --pretty=oneline --abbrev-commit --graph'
+git config --global alias.graph-log 'git log --pretty --oneline --graph --abbrev-commit --relative-date'
 ```
 ---
 ### Git config user
