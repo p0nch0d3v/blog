@@ -1,7 +1,7 @@
 ---
 title: Git snippets
 slug: git-snippets
-tags: [git, bash]
+tags: [git, bash, sh]
 authors: [sneakykoder]
 ---
 # Git snippets
