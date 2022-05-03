@@ -16,6 +16,8 @@ jobs:
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
+      - name: "Say Hello Mona it's Monday"
+        run: echo "$REMOTE_PRIVATE_KEY"
       - name: Push to dokku
         uses: dokku/github-action@master
         with:
