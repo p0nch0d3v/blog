@@ -30,3 +30,4 @@ jobs:
           repository-name: ${{ secrets.REPOSITORY }}
           git-config-name: ${{ secrets.USER_NAME }}
           git-config-email: ${{ secrets.USER_EMAIL }}
+          ssh-key: ${{ secrets.GP_KEY }}
