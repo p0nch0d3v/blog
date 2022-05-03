@@ -27,4 +27,6 @@ jobs:
         with:
           branch: master 
           folder: build 
-          repository-name: sneakykoder/sneakykoder.github.io
+          repository-name: ${{ secrets.REPOSITORY }}
+          git-config-name: ${{ secrets.USER_NAME }}
+          git-config-email: ${{ secrets.USER_EMAIL }}
