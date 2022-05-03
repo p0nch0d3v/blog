@@ -1,0 +1,30 @@
+name: Github Pages Deploy
+
+on:
+  push:
+    branches:
+      - master
+env:
+  SITE_URL: https://sneakykoder.github.io
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v3
+        with:
+          node-version: lts
+      - name: NPM Instal and Build
+        run: |
+          npm ci
+          npm run build
+      - name: Deploy 
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: master 
+          folder: build 
+          repository-name: sneakykoder/sneakykoder.github.io
