@@ -8,11 +8,11 @@ authors: [sneakykoder]
 > Here is a set of some git snippets, useful in some way.
 
 ### List files/directories
-```sh
+```bash
 ls -a -l -h --color=always
 ```
 Where:
-```sh
+```bash
 -a      = show all files included the dots(.)
 -l      = show in long format
 -h      = Show in units in humat readable format
@@ -20,6 +20,6 @@ Where:
 ```
 
 ### Find forlders recursively
-```
+```bash
 find . -name "node_modules" -type d -prune | xargs du -chs
 ```
