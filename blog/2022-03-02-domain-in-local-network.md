@@ -2,7 +2,7 @@
 title: Host domain on local network
 slug: host-domain-local-net
 tags: []
-authors: [sneakykoder]
+authors: [p0nch0d3v]
 ---
 Prefer used a domain parked on <a href="https://www.namecheap.com/" target="_blank">namecheap</a>.
 

@@ -2,7 +2,7 @@
 title: Docker CLI's
 slug: docker-clis
 tags: [docker, bash, python, dotNetCore, node-js]
-authors: [sneakykoder]
+authors: [p0nch0d3v]
 ---
 # Docker CLI's
 ## A collection of custom docker images as CLI's
@@ -13,32 +13,22 @@ A decision mas made to create a set of docker images with some pre-installed app
 
 <!--truncate-->
 
-## python:3
-### Docker image:
-> [https://hub.docker.com/r/sneakykoder/python-cli](https://hub.docker.com/r/sneakykoder/python-cli).
-### Repository: 
-> [https://github.com/sneakykoder/python-cli](https://github.com/sneakykoder/python-cli)
-### How to use it:
-```bash
-docker run --rm --interactive --tty --volume ${PWD}:/app sneakykoder/python-cli:3 bash
-```
-
 ## dotnet core with entity framework
 ### Docker image:
-> [https://hub.docker.com/r/sneakykoder/dotnet-cli/tags](https://hub.docker.com/r/sneakykoder/dotnet-cli/tags)
+> [https://hub.docker.com/r/p0nch0d3v/dotnet-sdk/tags](https://hub.docker.com/r/p0nch0d3v/dotnet-sdk/tags)
 ### Repository:
-> [https://github.com/sneakykoder/dotnet-cli](https://github.com/sneakykoder/dotnet-cli) 
+> [https://github.com/p0nch0d3v/docker-images/blob/master/dotnet-sdk/Dockerfile](https://github.com/p0nch0d3v/docker-images/blob/master/dotnet-sdk/Dockerfile)
 ### How to use it
 ```bash
-docker run --rm --interactive --tty --volume ${PWD}:/app sneakykoder/dotnet-cli bash
+docker run --rm --interactive --tty --volume ${PWD}:/app p0nch0d3v/dotnet-sdk bash
 ```
 
 ## dotnet core with entity framework and node-js
 ### Docker image:
-> [https://hub.docker.com/r/sneakykoder/dotnet-node-cli](https://hub.docker.com/r/sneakykoder/dotnet-node-cli)
+> [https://hub.docker.com/r/p0nch0d3v/dotnet-sdk-node/tags](https://hub.docker.com/r/p0nch0d3v/dotnet-sdk-node/tags)
 ### Repository:
-> [https://github.com/sneakykoder/dotnet-node-cli](https://github.com/sneakykoder/dotnet-node-cli)
+> [https://github.com/p0nch0d3v/docker-images/blob/master/dotnet-sdk-node/Dockerfile](https://github.com/p0nch0d3v/docker-images/blob/master/dotnet-sdk-node/Dockerfile)
 ### How to use it:
 ```bash
-docker run --rm --interactive --tty --volume ${PWD}:/app sneakykoder/dotnet-node-cli bash
+docker run --rm --interactive --tty --volume ${PWD}:/app p0nch0d3v/dotnet-sdk-node bash
 ```

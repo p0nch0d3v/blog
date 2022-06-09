@@ -2,7 +2,7 @@
 title: Use Jenkins on Dokku
 slug: use-jenkins-on-dokku
 tags: [jenkins, dokku]
-authors: [sneakykoder]
+authors: [p0nch0d3v]
 ---
 Create the app on dokku.
 ```bash
