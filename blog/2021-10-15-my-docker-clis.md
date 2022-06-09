@@ -2,7 +2,7 @@
 title: Docker CLI's
 slug: docker-clis
 tags: [docker, bash, python, dotNetCore, node-js]
-authors: [sneakykoder]
+authors: [p0nch0d3v]
 ---
 # Docker CLI's
 ## A collection of custom docker images as CLI's

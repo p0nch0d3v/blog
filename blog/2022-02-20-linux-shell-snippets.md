@@ -2,7 +2,7 @@
 title: Linux Shell snippets
 slug: linux-shell-snippets
 tags: [linux, bash, sh]
-authors: [sneakykoder]
+authors: [p0nch0d3v]
 ---
 # Linux shell snippets
 > Here is a set of some git snippets, useful in some way.

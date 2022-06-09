@@ -2,7 +2,7 @@
 title: Git snippets
 slug: git-snippets
 tags: [git, bash, sh]
-authors: [sneakykoder]
+authors: [p0nch0d3v]
 ---
 # Git snippets
 > Here is a set of some git snippets, useful in some way.
