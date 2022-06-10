@@ -5,7 +5,10 @@ on:
     branches:
       - master
 env:
-  SITE_URL: https://sneakykoder.github.io
+  SITE_URL: https://p0nch0d3v.github.io
+  REPOSITORY: ${{ secrets.REPOSITORY }}
+  USER_NAME: ${{ secrets.USER_NAME }}
+  USER_EMAIL: ${{ secrets.USER_EMAIL }}
 
 jobs:
   build:
@@ -27,7 +30,7 @@ jobs:
         with:
           branch: master 
           folder: build 
-          repository-name: ${{ secrets.REPOSITORY }}
-          git-config-name: ${{ secrets.USER_NAME }}
-          git-config-email: ${{ secrets.USER_EMAIL }}
+          repository-name: ${{ env.REPOSITORY }}
+          git-config-name: ${{ env.USER_NAME }}
+          git-config-email: ${{ env.USER_EMAIL }}
           ssh-key: ${{ secrets.GP_KEY }}
