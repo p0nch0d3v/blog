@@ -43,6 +43,7 @@ const config = {
           routeBasePath: '/',
           showReadingTime: false,
           editUrl: undefined,
+          blogSidebarCount: 'ALL'
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -74,7 +75,8 @@ const config = {
           {
             href: '/docs/about-it',
             label: 'About It',
-            position: 'right'
+            position: 'right',
+            editUrl: undefined,
           }
         ],
       },
