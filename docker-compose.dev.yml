@@ -1,13 +1,16 @@
-version: '3'
+version: '3.9'
 services:
   site:
     image: node:lts-alpine
+    privileged: true
+    user: node
     command: >
       sh -c "cd /app &&
              npm install &&
              npm run start"
     volumes:
-      - .:/app
+      - ${PWD}/:/app:z
+    working_dir: /app
     ports:
       - 8080:8080
     environment:
