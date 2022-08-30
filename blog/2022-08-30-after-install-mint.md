@@ -4,7 +4,7 @@ slug: after-install-mint-21
 tags: [linux, mint, neovim, docker]
 authors: [p0nch0d3v]
 ---
-### Install some packages
+### Some packages
 
 ```bash
 sudo apt install -y zsh \
@@ -19,18 +19,18 @@ sudo apt install -y zsh \
      curl 
 ```
 
-### Install ohmyzsh
+### ohmyzsh
 
 ```bash
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-### Install SpaceVim
+### SpaceVim
 ```bash
 curl -sLf https://spacevim.org/install.sh | bash -s -- --install neovim
 ```
 
-### Install Docker
+### Docker
 ```bash
 sudo mkdir -p /etc/apt/keyrings
 ```
@@ -41,9 +41,7 @@ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o 
 echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 ```
 ```bash
-sudo apt-get update
-```
-```bash
+sudo apt-get update && \
 sudo apt-get install -y docker-ce \
      docker-ce-cli \
      containerd.io \
@@ -131,7 +129,8 @@ sudo chown -R $USER:$USER /mnt/{location}/
 ```bash
 mount /dev/{device}
 ```
-#### Add the following cron job
+
+### Add the following cron job
 ```bash
 crontab -e
 ```
