@@ -104,6 +104,22 @@ wget -O- https://www.virtualbox.org/download/oracle_vbox_2016.asc | sudo gpg --d
 sudo apt-get update && \
 sudo apt-get install --yes virtualbox-6.1
 ```
+
+### Skype
+```bash
+sudo apt install software-properties-common apt-transport-https wget ca-certificates gnupg2 -y
+```
+```bash
+wget -O- https://repo.skype.com/data/SKYPE-GPG-KEY | sudo gpg --dearmor | sudo tee /usr/share/keyrings/skype.gpg
+```
+```bash
+echo "deb [arch=amd64 signed-by=/usr/share/keyrings/skype.gpg] https://repo.skype.com/deb stable main" | sudo tee /etc/apt/sources.list.d/skype-stable.list
+```
+```
+sudo apt-get update && \
+sudo apt install skypeforlinux -y
+```
+
 ### Auto mount external drive
 #### List drives
 ```bash
