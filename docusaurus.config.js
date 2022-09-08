@@ -68,6 +68,11 @@ const config = {
         },
         items: [
           {
+            label: 'Docker Hub',
+            href: `https://hub.docker.com/u/${username}`,
+            position: 'right',
+          },
+          {
             href: `https://github.com/${username}/`,
             label: 'GitHub',
             position: 'right',
@@ -102,6 +107,10 @@ const config = {
               {
                 label: 'Gitlab',
                 href: `https://gitlab.com/${username}`,
+              },
+              {
+                label: 'Docker Hub',
+                href: `https://hub.docker.com/u/${username}`
               }
             ],
           },
