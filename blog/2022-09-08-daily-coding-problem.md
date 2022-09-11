@@ -1,14 +1,15 @@
 ---
 title: Coding Problem 2022-09-08
 slug: coding-problem-2022-09-08
-tags: [coding-problem]
+tags: [coding-problem, easy]
 authors: [p0nch0d3v]
 ---
 ### Problem:
->
-Given a list of numbers and a number k, return whether any two numbers from the list add up to k.
-For example, given [10, 15, 3, 7] and k of 17, return true since 10 + 7 is 17.
-Bonus: Can you do this in one pass?
+*Given a list of numbers and a number k, return whether any two numbers from the list add up to k.*
+
+*For example, given [10, 15, 3, 7] and k of 17, return true since 10 + 7 is 17.*
+
+*Bonus: Can you do this in one pass?*
 
 ### Proposed solution (Python):
 ```python
