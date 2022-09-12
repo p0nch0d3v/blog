@@ -5,26 +5,24 @@ tags: [coding-problem, easy]
 authors: [p0nch0d3v]
 ---
 ### Problem:
-*Given a list of numbers and a number k, return whether any two numbers from the list add up to k.*
+*Given a list of numbers and a number `k`, return whether any two numbers from the list add up to `k`.*
 
-*For example, given [10, 15, 3, 7] and k of 17, return true since 10 + 7 is 17.*
+*For example, given `[10, 15, 3, 7]` and `k` of `17`, return true since `10 + 7` is `17`.*
 
 *Bonus: Can you do this in one pass?*
 
 ### Proposed solution (Python):
 ```python
-def main ():
-    my_list = [10, 15, 3, 7]
-    k = 17
+def main (the_list, k):
     i = 0
     j = 0
     success = False
-    while (i < len(my_list)):
-        while (j < len(my_list)):
+    while (i < len(the_list)):
+        while (j < len(the_list)):
             if (i != j):
-                if (my_list[i] + my_list[j] == k):
-                    print(my_list[i])
-                    print(my_list[j])
+                if (the_list[i] + the_list[j] == k):
+                    print(the_list[i])
+                    print(the_list[j])
                     success = True
             j = j + 1
             if (success):
@@ -34,5 +32,7 @@ def main ():
         if (success):
             break
     print(success)
-main()
+
+if __name__ == "__main__":
+    main([10, 15, 3, 7], 17)
 ```
