@@ -13,14 +13,21 @@ export default function CodeFilePreview({ url, lang, urlDescription }) {
         return content;
     };
     return (
-        <>
-            <pre style={{'maxHeight': '25vh', 'overflow': 'scroll'}}>
-                <code lang={lang}>
-                    {content}
-                </code>
-            </pre>
-            <a href={url} target="_blank">{urlDescription}</a>
-            <br />
-        </>
+        <div className={'language-' + lang}> 
+            <div>
+                <pre className={'prism-code language-' + lang}>
+                    <code lang={lang}>
+                        {content.split(/\r?\n/).map((v, i) => {
+                            return (<span className={'token-line ' + i}>
+                                        <span className="token">{v}</span>
+                                        <br />
+                                    </span>);
+                        })}
+                    </code>
+                </pre>
+                <a href={url} target="_blank">{urlDescription}</a>
+                <br />
+            </div>
+        </div>
     );
 };
