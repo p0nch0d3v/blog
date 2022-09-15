@@ -16,7 +16,8 @@ sudo apt install -y zsh \
      bat \
      chromium \
      wget \
-     curl 
+     curl \
+     htop
 ```
 
 ### ohmyzsh
