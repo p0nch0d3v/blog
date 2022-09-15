@@ -51,7 +51,7 @@ const config = {
             language: 'en-us'
           },
           include: ['**/*.{md,mdx}'],
-          exclude: ['**/drafts/**', '**/unsolved_coding_problems/**']
+          exclude: ['**/drafts/**', '**/unsolved_coding_problems/**'],
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -74,6 +74,11 @@ const config = {
           src: 'img/logo.jpg',
         },
         items: [
+          {
+            label: '[ Tags ]',
+            href: '/tags',
+            position: 'left'
+          },
           {
             label: 'Docker Hub',
             href: `https://hub.docker.com/u/${username}`,
