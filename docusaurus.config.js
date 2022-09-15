@@ -43,7 +43,15 @@ const config = {
           routeBasePath: '/',
           showReadingTime: false,
           editUrl: undefined,
-          blogSidebarCount: 'ALL'
+          blogSidebarCount: 'ALL',
+          feedOptions: {
+            type: 'atom',
+            title: `Just another tech blog by ${username}`,
+            description: `Just another tech blog by ${username}`,
+            language: 'en-us'
+          },
+          include: ['**/*.{md,mdx}'],
+          exclude: ['**/drafts/**']
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
