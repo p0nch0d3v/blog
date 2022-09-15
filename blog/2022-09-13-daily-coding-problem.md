@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Coding Problem 2022-09-13 (hard)
 slug: coding-problem-2022-09-13
 tags: [coding-problem, hard]

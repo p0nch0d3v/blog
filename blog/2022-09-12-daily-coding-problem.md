@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Coding Problem 2022-09-12 (medium)
 slug: coding-problem-2022-09-12
 tags: [coding-problem, medium]

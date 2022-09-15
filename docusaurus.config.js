@@ -50,8 +50,7 @@ const config = {
             description: `Just another tech blog by ${username}`,
             language: 'en-us'
           },
-          include: ['**/*.{md,mdx}'],
-          exclude: ['**/drafts/**', '**/unsolved_coding_problems/**'],
+          include: ['**/*.{md,mdx}']
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -75,7 +74,7 @@ const config = {
         },
         items: [
           {
-            label: '[ Tags ]',
+            label: '#Tags',
             href: '/tags',
             position: 'left'
           },
