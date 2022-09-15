@@ -1,5 +1,5 @@
 ---
-title: Coding Problem 2022-09-10
+title: Coding Problem 2022-09-10 (medium)
 slug: coding-problem-2022-09-10
 tags: [coding-problem, medium]
 authors: [p0nch0d3v]

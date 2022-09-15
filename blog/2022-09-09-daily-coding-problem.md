@@ -1,5 +1,5 @@
 ---
-title: Coding Problem 2022-09-09
+title: Coding Problem 2022-09-09 (hard)
 slug: coding-problem-2022-09-09
 tags: [coding-problem, hard]
 authors: [p0nch0d3v]
