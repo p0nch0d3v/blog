@@ -51,7 +51,7 @@ const config = {
             language: 'en-us'
           },
           include: ['**/*.{md,mdx}'],
-          exclude: ['**/drafts/**']
+          exclude: ['**/drafts/**', '**/unsolved_coding_problems/**']
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
