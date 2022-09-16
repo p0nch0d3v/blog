@@ -6,6 +6,7 @@ on:
       - master
 env:
   SITE_URL: https://p0nch0d3v.github.io
+  USERNAME: ${{ secrets.USER_NAME }}
   REPOSITORY: ${{ secrets.REPOSITORY }}
   USER_NAME: ${{ secrets.USER_NAME }}
   USER_EMAIL: ${{ secrets.USER_EMAIL }}
