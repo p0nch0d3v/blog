@@ -4,7 +4,9 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const title = 'Blog';
-const username = 'p0nch0d3v';
+const username = `${process.env.USERNAME}`;
+
+console.log(process.env);
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
