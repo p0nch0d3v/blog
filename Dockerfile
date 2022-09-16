@@ -1,6 +1,10 @@
 FROM node:lts as build
 ARG SITE_URL=''
+ARG USERNAME=''
+
 ENV SITE_URL=${SITE_URL}
+ENV USERNAME=${USERNAME}
+
 WORKDIR /app
 COPY . /app
 RUN npm install && npm run clear && npm run build
