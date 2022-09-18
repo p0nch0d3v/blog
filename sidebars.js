@@ -34,7 +34,14 @@ const sidebars = {
       label: 'Coding Problems',
       items: [
         'coding-problem/index', 
-        'coding-problem/2022-09-08-easy']
+        'coding-problem/2022-09-08-easy',
+        'coding-problem/2022-09-09-hard',
+        'coding-problem/2022-09-10-medium',
+        'coding-problem/2022-09-11-hard',
+        'coding-problem/2022-09-12-medium',
+        'coding-problem/2022-09-13-hard',
+        'coding-problem/2022-09-14-medium'
+      ]
     }
   ],
   
