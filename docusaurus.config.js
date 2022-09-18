@@ -6,8 +6,6 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const title = 'Blog';
 const username = `${process.env.USERNAME}`;
 
-console.log(process.env);
-
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: title,
@@ -35,10 +33,10 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          breadcrumbs: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: undefined,
         },
         blog: {
           path: './blog',
@@ -79,6 +77,12 @@ const config = {
             label: '#Tags',
             href: '/tags',
             position: 'left'
+          },
+          {
+            href: '/docs/',
+            label: 'Docs',
+            position: 'left',
+            editUrl: undefined,
           },
           {
             label: 'Docker Hub',
@@ -136,5 +140,5 @@ const config = {
       },
     }),
 };
-console.log(config);
+
 module.exports = config;
