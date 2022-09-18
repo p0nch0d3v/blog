@@ -31,7 +31,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'Coding Problems',
+      label: 'Coding Problem',
       items: [
         'coding-problem/index', 
         'coding-problem/2022-09-08-easy',
