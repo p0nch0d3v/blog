@@ -1,6 +1,7 @@
 ---
-# slug: ''
 title: Coding Problems
+pagination_prev: index
+pagination_next: null
 ---
 #
 ### Easy

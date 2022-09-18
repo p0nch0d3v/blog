@@ -1,6 +1,6 @@
 ---
 slug: /
-title: ''
+title: 'Docs'
 ---
 # 
 
