@@ -40,7 +40,14 @@ const sidebars = {
         'coding-problem/2022-09-11-hard',
         'coding-problem/2022-09-12-medium',
         'coding-problem/2022-09-13-hard',
-        'coding-problem/2022-09-14-medium'
+        'coding-problem/2022-09-14-medium',
+        'coding-problem/2022-09-15-easy',
+        'coding-problem/2022-09-16-hard',
+        'coding-problem/2022-09-17-medium',
+        'coding-problem/2022-09-18-medium',
+        'coding-problem/2022-09-19-hard',
+        'coding-problem/2022-09-20-hard',
+        'coding-problem/2022-09-21-medium'
       ]
     }
   ],
