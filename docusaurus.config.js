@@ -79,8 +79,8 @@ const config = {
             position: 'left'
           },
           {
-            href: '/docs/',
-            label: 'Docs',
+            href: '/docs/coding-problems/',
+            label: 'Coding Problems',
             position: 'left',
             editUrl: undefined,
           },
