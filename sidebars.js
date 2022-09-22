@@ -52,6 +52,7 @@ const sidebars = {
             'coding-problems/medium/2022-09-17-medium',
             'coding-problems/medium/2022-09-18-medium',
             'coding-problems/medium/2022-09-21-medium',
+            'coding-problems/medium/2022-09-22-medium',
           ]
         },
         {
