@@ -40,6 +40,7 @@ const sidebars = {
           items: [
             'coding-problems/easy/2022-09-08-easy',
             'coding-problems/easy/2022-09-15-easy',
+            'coding-problems/easy/2022-09-23-easy',
           ]
         },
         {

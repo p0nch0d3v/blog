@@ -12,7 +12,7 @@ export default function CodingProblemList({ items }) {
 
     const itemStyle = {
         flexShrink: 1,
-        flexBasis: '150px',
+        flexBasis: '175px',
         marginTop: '0.75rem',
         marginBottom: '0.75rem'
     };
@@ -27,6 +27,7 @@ export default function CodingProblemList({ items }) {
                                         <a href={value.link} target="_self">
                                             {value.text}
                                         </a>
+                                        {value.solved ? ' (solved)': ''}
                                 </li>
                             );
                         })
