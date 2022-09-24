@@ -67,6 +67,11 @@ const sidebars = {
             'coding-problems/hard/2022-09-19-hard',
             'coding-problems/hard/2022-09-20-hard',
           ]
+        },
+        {
+          type: 'category',
+          label: 'codingbat.com',
+          items: ['coding-problems/codingbat.com/make_chocolate']
         }
       ]
     }

@@ -5,7 +5,7 @@ pagination_next: null
 ---
 import CodingProblemList from '@site/src/components/CodingProblemList';
 
-> Set of problesm received from  [dailycodingproblem.com](https://www.dailycodingproblem.com/), listed as they're received.
+## [dailycodingproblem.com](https://www.dailycodingproblem.com/)
 
 ### Easy
 <CodingProblemList items={[ 
@@ -33,4 +33,11 @@ import CodingProblemList from '@site/src/components/CodingProblemList';
     {text: '2022-09-16', link: '/docs/coding-problems/hard/2022-09-16-hard'},
     {text: '2022-09-19', link: '/docs/coding-problems/hard/2022-09-19-hard'},
     {text: '2022-09-20', link: '/docs/coding-problems/hard/2022-09-20-hard'}
+]} />
+
+## [codingbat.com](https://codingbat.com/prob/p190859)
+
+### Logic
+<CodingProblemList items={[ 
+    {text: 'Make chocolate', link: '/docs/coding-problems/codingbat.com/codingbat-make_chocolate', solved: true}
 ]} />

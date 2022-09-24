@@ -14,7 +14,10 @@ export default function CodingProblemList({ items }) {
         flexShrink: 1,
         flexBasis: '175px',
         marginTop: '0.75rem',
-        marginBottom: '0.75rem'
+        marginBottom: '0.75rem',
+        overflowWrap: 'break-word',
+        flexWrap: 'wrap',
+        whiteSpace: 'break-spaces'
     };
 
     return (
