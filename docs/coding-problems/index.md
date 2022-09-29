@@ -22,7 +22,8 @@ import CodingProblemList from '@site/src/components/CodingProblemList';
     {text: '2022-09-17', link: '/docs/coding-problems/medium/2022-09-17-medium'},
     {text: '2022-09-18', link: '/docs/coding-problems/medium/2022-09-18-medium'},
     {text: '2022-09-21', link: '/docs/coding-problems/medium/2022-09-21-medium'},
-    {text: '2022-09-22', link: '/docs/coding-problems/medium/2022-09-22-medium'}
+    {text: '2022-09-22', link: '/docs/coding-problems/medium/2022-09-22-medium'},
+    {text: '2022-09-26', link: '/docs/coding-problems/medium/2022-09-26-medium'},
 ]} />
 
 ### Hard
