@@ -11,7 +11,9 @@ import CodingProblemList from '@site/src/components/CodingProblemList';
 <CodingProblemList items={[ 
     {text: '2022-09-08', link: '/docs/coding-problems/easy/2022-09-08-easy', solved: true},
     {text: '2022-09-15', link: '/docs/coding-problems/easy/2022-09-15-easy'},
-    {text: '2022-09-23', link: '/docs/coding-problems/easy/2022-09-23-easy'}
+    {text: '2022-09-23', link: '/docs/coding-problems/easy/2022-09-23-easy'},
+    {text: '2022-09-27', link: '/docs/coding-problems/easy/2022-09-27-easy'},
+    {text: '2022-09-28', link: '/docs/coding-problems/easy/2022-09-28-easy'},
 ]} />
 
 ### Medium
@@ -22,7 +24,8 @@ import CodingProblemList from '@site/src/components/CodingProblemList';
     {text: '2022-09-17', link: '/docs/coding-problems/medium/2022-09-17-medium'},
     {text: '2022-09-18', link: '/docs/coding-problems/medium/2022-09-18-medium'},
     {text: '2022-09-21', link: '/docs/coding-problems/medium/2022-09-21-medium'},
-    {text: '2022-09-22', link: '/docs/coding-problems/medium/2022-09-22-medium'}
+    {text: '2022-09-22', link: '/docs/coding-problems/medium/2022-09-22-medium'},
+    {text: '2022-09-26', link: '/docs/coding-problems/medium/2022-09-26-medium'},
 ]} />
 
 ### Hard
@@ -32,7 +35,9 @@ import CodingProblemList from '@site/src/components/CodingProblemList';
     {text: '2022-09-13', link: '/docs/coding-problems/hard/2022-09-13-hard'},
     {text: '2022-09-16', link: '/docs/coding-problems/hard/2022-09-16-hard'},
     {text: '2022-09-19', link: '/docs/coding-problems/hard/2022-09-19-hard'},
-    {text: '2022-09-20', link: '/docs/coding-problems/hard/2022-09-20-hard'}
+    {text: '2022-09-20', link: '/docs/coding-problems/hard/2022-09-20-hard'},
+    {text: '2022-09-24', link: '/docs/coding-problems/hard/2022-09-24-hard'},
+    {text: '2022-09-25', link: '/docs/coding-problems/hard/2022-09-25-hard'}
 ]} />
 
 ## [codingbat.com](https://codingbat.com/prob/p190859)

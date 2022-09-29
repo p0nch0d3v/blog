@@ -41,6 +41,8 @@ const sidebars = {
             'coding-problems/easy/2022-09-08-easy',
             'coding-problems/easy/2022-09-15-easy',
             'coding-problems/easy/2022-09-23-easy',
+            'coding-problems/easy/2022-09-27-easy',
+            'coding-problems/easy/2022-09-28-easy',
           ]
         },
         {
@@ -54,6 +56,7 @@ const sidebars = {
             'coding-problems/medium/2022-09-18-medium',
             'coding-problems/medium/2022-09-21-medium',
             'coding-problems/medium/2022-09-22-medium',
+            'coding-problems/medium/2022-09-26-medium',
           ]
         },
         {
@@ -66,6 +69,8 @@ const sidebars = {
             'coding-problems/hard/2022-09-16-hard',
             'coding-problems/hard/2022-09-19-hard',
             'coding-problems/hard/2022-09-20-hard',
+            'coding-problems/hard/2022-09-24-hard',
+            'coding-problems/hard/2022-09-25-hard',
           ]
         },
         {
