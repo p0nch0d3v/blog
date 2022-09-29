@@ -67,6 +67,7 @@ const sidebars = {
             'coding-problems/hard/2022-09-19-hard',
             'coding-problems/hard/2022-09-20-hard',
             'coding-problems/hard/2022-09-24-hard',
+            'coding-problems/hard/2022-09-25-hard',
           ]
         },
         {

@@ -33,7 +33,8 @@ import CodingProblemList from '@site/src/components/CodingProblemList';
     {text: '2022-09-16', link: '/docs/coding-problems/hard/2022-09-16-hard'},
     {text: '2022-09-19', link: '/docs/coding-problems/hard/2022-09-19-hard'},
     {text: '2022-09-20', link: '/docs/coding-problems/hard/2022-09-20-hard'},
-    {text: '2022-09-24', link: '/docs/coding-problems/hard/2022-09-24-hard'}
+    {text: '2022-09-24', link: '/docs/coding-problems/hard/2022-09-24-hard'},
+    {text: '2022-09-25', link: '/docs/coding-problems/hard/2022-09-25-hard'}
 ]} />
 
 ## [codingbat.com](https://codingbat.com/prob/p190859)
