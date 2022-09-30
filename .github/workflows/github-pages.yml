@@ -24,7 +24,6 @@ jobs:
           node-version: lts/*
       - name: NPM Instal and Build
         run: |
-          touch >> /.env
           echo "SITE_URL=${SITE_URL}" >> /.env
           echo "USERNAME=${USERNAME}" >> /.env
           npm install
