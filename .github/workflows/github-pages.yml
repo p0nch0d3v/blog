@@ -24,8 +24,13 @@ jobs:
           node-version: lts/*
       - name: NPM Instal and Build
         run: |
+          echo "SITE_URL=${SITE_URL}" >> /app/.env
+          echo "USERNAME=${USERNAME}" >> /app/.env
           npm install
           npm run build
+        env:
+          SITE_URL: ${{ env.SITE_URL }}
+          USERNAME: ${{ secrets.USERNAME }}
       - name: Deploy 
         uses: JamesIves/github-pages-deploy-action@v4
         with:
