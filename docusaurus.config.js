@@ -25,7 +25,15 @@ const config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
-
+  plugins: [
+    [
+      "docusaurus2-dotenv",
+      {
+        systemvars: true,
+        path: "./.env.local",
+      },
+    ]
+  ],
   presets: [
     [
       'classic',
