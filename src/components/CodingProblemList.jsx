@@ -38,7 +38,8 @@ export default function CodingProblemList({ items }) {
     return (<div className="container">
             <ul className="row" style={wrapperStyle}>
                     {items.map((value, index) => { 
-                        const newLocation = process.env.SITE_URL + value.link;
+                        const newLocation = (process.env.SITE_URL || window.location.origin
+                            ) + value.link;
                         return (
                             <li style={itemStyle(value.solved)}>
                                 <button style={linkStyle(value.solved)} onClick={() => { 
