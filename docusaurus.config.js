@@ -29,7 +29,7 @@ const config = {
     [
       "docusaurus2-dotenv",
       {
-        systemvars: true,
+        systemvars: false,
         path: process.env.NODE_ENV === "development" ? "./.env.local" : "./.env",
       },
     ]
