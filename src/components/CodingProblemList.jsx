@@ -35,23 +35,21 @@ export default function CodingProblemList({ items }) {
         }
     };
 
-    const baseUrl = window.location.origin || process.env.SITE_URL;
-    console.debug('baseUrl', baseUrl);
-
-    return (<div className="container">
-            <ul className="row" style={wrapperStyle}>
-                    {items.map((value, index) => { 
-                        const newLocation = baseUrl + value.link;
-                        return (
-                            <li style={itemStyle(value.solved)}>
-                                <button style={linkStyle(value.solved)} onClick={() => { 
-                                    location.href = newLocation; 
-                                }}>{value.text}</button>
-                                {value.solved ? <>&nbsp;[&nbsp;&#10004;&nbsp;]</> : <></>}
-                            </li>
-                        );
-                    })}
-            </ul>
-        </div>
+    return (
+            <div className="container">
+                <ul className="row" style={wrapperStyle}>
+                        {items.map((value, index) => { 
+                            return (
+                                <li style={itemStyle(value.solved)}>
+                                    <a style={linkStyle(value.solved)} 
+                                       href={value.link}>
+                                        {value.text}
+                                    </a>
+                                    {value.solved ? <>&nbsp;[&nbsp;&#10004;&nbsp;]</> : <></>}
+                                </li>
+                            );
+                        })}
+                </ul>
+            </div>
     );
 }
