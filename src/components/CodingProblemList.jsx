@@ -19,25 +19,36 @@ export default function CodingProblemList({ items }) {
             overflowWrap: 'break-word',
             flexWrap: 'wrap',
             whiteSpace: 'break-spaces',
-            fontWeight: solved ? '100': '400'
         };
     }
 
+    function linkStyle(solved) {
+        return {
+            color: 'var(--ifm-link-color)',
+            textDecoration: 'var(--ifm-link-decoration)',
+            background: 'none',
+            border: '1px solid transparent',
+            cursor: 'pointer',
+            fontSize: 'unset',
+            fontWeight: solved ? '100' : '400',
+            fontStyle: solved ? 'italic' : 'unset'
+        }
+    };
+
     return (<div className="container">
             <ul className="row" style={wrapperStyle}>
-                    {   
-                        items.map((value, index) => { 
-                            return (
-                                <li style={itemStyle(value.solved)}>
-                                        <a href={value.link} target="_self">
-                                            {value.text}
-                                        </a>
-                                        {value.solved ? <>&nbsp;[&nbsp;&#10004;&nbsp;]</> : <></>}
-                                        <p></p>
-                                </li>
-                            );
-                        })
-                    }
+                    {items.map((value, index) => { 
+                        const newLocation = process.env.SITE_URL + value.link;
+                        return (
+                            <li style={itemStyle(value.solved)}>
+                                <button style={linkStyle(value.solved)} onClick={() => { 
+                                    console.debug(newLocation); 
+                                    location.href = newLocation; 
+                                }}>{value.text}</button>
+                                {value.solved ? <>&nbsp;[&nbsp;&#10004;&nbsp;]</> : <></>}
+                            </li>
+                        );
+                    })}
             </ul>
         </div>
     );
