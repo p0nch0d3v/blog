@@ -43,6 +43,7 @@ const sidebars = {
             'coding-problems/easy/2022-09-23-easy',
             'coding-problems/easy/2022-09-27-easy',
             'coding-problems/easy/2022-09-28-easy',
+            'coding-problems/easy/2022-09-30-easy',
           ]
         },
         {

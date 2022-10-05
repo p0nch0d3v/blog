@@ -14,6 +14,7 @@ import CodingProblemList from '@site/src/components/CodingProblemList';
     {text: '2022-09-23', link: '/docs/coding-problems/easy/2022-09-23-easy'},
     {text: '2022-09-27', link: '/docs/coding-problems/easy/2022-09-27-easy'},
     {text: '2022-09-28', link: '/docs/coding-problems/easy/2022-09-28-easy'},
+    {text: '2022-09-30', link: '/docs/coding-problems/easy/2022-09-30-easy'},
 ]} />
 
 ### Medium
