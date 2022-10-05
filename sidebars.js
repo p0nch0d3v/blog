@@ -44,6 +44,7 @@ const sidebars = {
             'coding-problems/easy/2022-09-27-easy',
             'coding-problems/easy/2022-09-28-easy',
             'coding-problems/easy/2022-09-30-easy',
+            'coding-problems/easy/2022-10-04-easy',
           ]
         },
         {
