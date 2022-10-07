@@ -25,7 +25,9 @@ export default function CodeFilePreview({ url, lang, urlDescription }) {
                 wrapLines={true}>
                 {content}
             </SyntaxHighlighter>
-            <a href={url} target="_blank">{urlDescription}</a>
+            {urlDescription ? 
+                <a href={url} target="_blank">{urlDescription}</a> 
+                : <></> }
             <br />
         </div>
         
