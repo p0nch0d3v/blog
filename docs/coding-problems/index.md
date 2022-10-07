@@ -16,6 +16,7 @@ import CodingProblemList from '@site/src/components/CodingProblemList';
     {text: '2022-09-28', link: '/docs/coding-problems/easy/2022-09-28-easy'},
     {text: '2022-09-30', link: '/docs/coding-problems/easy/2022-09-30-easy'},
     {text: '2022-10-04', link: '/docs/coding-problems/easy/2022-10-04-easy'},
+    {text: '2022-10-06', link: '/docs/coding-problems/easy/2022-10-06-easy'},
 ]} />
 
 ### Medium
@@ -31,6 +32,8 @@ import CodingProblemList from '@site/src/components/CodingProblemList';
     {text: '2022-09-29', link: '/docs/coding-problems/medium/2022-09-29-medium'},
     {text: '2022-10-01', link: '/docs/coding-problems/medium/2022-10-01-medium'},
     {text: '2022-10-03', link: '/docs/coding-problems/medium/2022-10-03-medium'},
+    {text: '2022-10-05', link: '/docs/coding-problems/medium/2022-10-05-medium'},
+    {text: '2022-10-07', link: '/docs/coding-problems/medium/2022-10-07-medium'},
 ]} />
 
 ### Hard
@@ -40,7 +43,7 @@ import CodingProblemList from '@site/src/components/CodingProblemList';
     {text: '2022-09-13', link: '/docs/coding-problems/hard/2022-09-13-hard'},
     {text: '2022-09-16', link: '/docs/coding-problems/hard/2022-09-16-hard'},
     {text: '2022-09-19', link: '/docs/coding-problems/hard/2022-09-19-hard'},
-    {text: '2022-09-20', link: '/docs/coding-problems/hard/2022-09-20-hard'},
+    {text: '2022-09-20', link: '/docs/coding-problems/hard/2022-09-20-hard', solved: true},
     {text: '2022-09-24', link: '/docs/coding-problems/hard/2022-09-24-hard'},
     {text: '2022-09-25', link: '/docs/coding-problems/hard/2022-09-25-hard'},
     {text: '2022-10-02', link: '/docs/coding-problems/hard/2022-10-02-hard'},
