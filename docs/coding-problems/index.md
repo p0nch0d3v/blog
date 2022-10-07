@@ -16,6 +16,7 @@ import CodingProblemList from '@site/src/components/CodingProblemList';
     {text: '2022-09-28', link: '/docs/coding-problems/easy/2022-09-28-easy'},
     {text: '2022-09-30', link: '/docs/coding-problems/easy/2022-09-30-easy'},
     {text: '2022-10-04', link: '/docs/coding-problems/easy/2022-10-04-easy'},
+    {text: '2022-10-06', link: '/docs/coding-problems/easy/2022-10-06-easy'},
 ]} />
 
 ### Medium
@@ -32,6 +33,7 @@ import CodingProblemList from '@site/src/components/CodingProblemList';
     {text: '2022-10-01', link: '/docs/coding-problems/medium/2022-10-01-medium'},
     {text: '2022-10-03', link: '/docs/coding-problems/medium/2022-10-03-medium'},
     {text: '2022-10-05', link: '/docs/coding-problems/medium/2022-10-05-medium'},
+    {text: '2022-10-07', link: '/docs/coding-problems/medium/2022-10-07-medium'},
 ]} />
 
 ### Hard
