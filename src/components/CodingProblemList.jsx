@@ -30,8 +30,8 @@ export default function CodingProblemList({ items }) {
             border: '1px solid transparent',
             cursor: 'pointer',
             fontSize: 'unset',
-            fontWeight: solved ? '100' : '400',
-            fontStyle: solved ? 'italic' : 'unset'
+            fontStyle: solved ? 'italic' : 'unset',
+            textDecoration: solved ? 'line-through': 'none'
         }
     };
 
