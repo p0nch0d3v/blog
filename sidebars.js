@@ -65,6 +65,11 @@ const sidebars = {
           type: 'category',
           label: 'codingbat.com',
           items: ['coding-problems/codingbat.com/make_chocolate']
+        },
+        {
+          type: 'category',
+          label: 'dmoj.ca',
+          items: ['coding-problems/dmoj-ca/tower-of-hanoi']
         }
       ]
     }

@@ -28,9 +28,15 @@ import CodingProblemList from '@site/src/components/CodingProblemList';
     {text: '2022-09-25', link: '/docs/coding-problems/hard/2022-09-25-hard'},
 ]} />
 
-## [codingbat.com](https://codingbat.com/prob/p190859)
+## [codingbat.com](https://codingbat.com/)
 
 ### Logic
 <CodingProblemList items={[ 
     {text: 'Make chocolate', link: '/docs/coding-problems/codingbat.com/codingbat-make_chocolate', solved: true}
+]} />
+
+## [dmoj.ca](https://dmoj.ca/)
+
+<CodingProblemList items={[    
+    {text: 'Towers of Hanoi', link: '/docs/coding-problems/dmoj-ca/dmoj-towers_of_hanoi'},
 ]} />
