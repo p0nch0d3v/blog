@@ -39,12 +39,6 @@ const sidebars = {
           label: 'Easy',
           items: [
             'coding-problems/easy/2022-09-08-easy',
-            'coding-problems/easy/2022-09-15-easy',
-            'coding-problems/easy/2022-09-23-easy',
-            'coding-problems/easy/2022-09-27-easy',
-            'coding-problems/easy/2022-09-28-easy',
-            'coding-problems/easy/2022-09-30-easy',
-            'coding-problems/easy/2022-10-04-easy',
             'coding-problems/easy/2022-10-06-easy',
           ]
         },
@@ -53,18 +47,6 @@ const sidebars = {
           label: 'Medium',
           items: [
             'coding-problems/medium/2022-09-10-medium',
-            'coding-problems/medium/2022-09-12-medium',
-            'coding-problems/medium/2022-09-14-medium',
-            'coding-problems/medium/2022-09-17-medium',
-            'coding-problems/medium/2022-09-18-medium',
-            'coding-problems/medium/2022-09-21-medium',
-            'coding-problems/medium/2022-09-22-medium',
-            'coding-problems/medium/2022-09-26-medium',
-            'coding-problems/medium/2022-09-29-medium',
-            'coding-problems/medium/2022-10-01-medium',
-            'coding-problems/medium/2022-10-03-medium',
-            'coding-problems/medium/2022-10-05-medium',
-            'coding-problems/medium/2022-10-07-medium',
           ]
         },
         {
@@ -73,19 +55,21 @@ const sidebars = {
           items: [
             'coding-problems/hard/2022-09-09-hard',
             'coding-problems/hard/2022-09-11-hard',
-            'coding-problems/hard/2022-09-13-hard',
             'coding-problems/hard/2022-09-16-hard',
             'coding-problems/hard/2022-09-19-hard',
             'coding-problems/hard/2022-09-20-hard',
-            'coding-problems/hard/2022-09-24-hard',
             'coding-problems/hard/2022-09-25-hard',
-            'coding-problems/hard/2022-10-02-hard',
           ]
         },
         {
           type: 'category',
           label: 'codingbat.com',
           items: ['coding-problems/codingbat.com/make_chocolate']
+        },
+        {
+          type: 'category',
+          label: 'dmoj.ca',
+          items: ['coding-problems/dmoj-ca/tower-of-hanoi']
         }
       ]
     }

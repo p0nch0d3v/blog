@@ -1,7 +1,7 @@
 ---
 title: Make chocolate [✔️]
 slug: codingbat-make_chocolate
-tags: [coding-problem, hard]
+tags: [coding-problem, codingbat]
 authors: [p0nch0d3v]
 pagination_prev: coding-problems/index
 pagination_next: null
