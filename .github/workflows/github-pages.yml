@@ -5,11 +5,12 @@ on:
     branches:
       - master
 env:
-  SITE_URL: https://p0nch0d3v.github.io
-  USERNAME: ${{ secrets.USERNAME }}
   REPOSITORY: ${{ secrets.REPOSITORY }}
-  USER_NAME: ${{ secrets.USER_NAME }}
+  USER_NAME: ${{ var.USER_NAME }}
   USER_EMAIL: ${{ secrets.USER_EMAIL }}
+  GP_KEY: ${{ secrets.GP_KEY }}
+  SITE_URL: ${{ var.SITE_URL }}
+  USER_NAME: ${{ secrets.USER_NAME }}
 
 jobs:
   build:
@@ -28,7 +29,7 @@ jobs:
           npm run build
         env:
           SITE_URL: ${{ env.SITE_URL }}
-          USERNAME: ${{ secrets.USERNAME }}
+          USERNAME: ${{ env.USER_NAME }}
       - name: Deploy 
         uses: JamesIves/github-pages-deploy-action@v4
         with:
@@ -37,4 +38,4 @@ jobs:
           repository-name: ${{ env.REPOSITORY }}
           git-config-name: ${{ env.USER_NAME }}
           git-config-email: ${{ env.USER_EMAIL }}
-          ssh-key: ${{ secrets.GP_KEY }}
+          ssh-key: ${{ env.GP_KEY }}
