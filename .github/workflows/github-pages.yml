@@ -5,12 +5,11 @@ on:
     branches:
       - master
 env:
-  REPOSITORY: ${{ secrets.REPOSITORY }}
-  USER_NAME: ${{ vars.USER_NAME }}
-  USER_EMAIL: ${{ secrets.USER_EMAIL }}
   GP_KEY: ${{ secrets.GP_KEY }}
+  REPOSITORY: ${{ secrets.REPOSITORY }}
+  USER_EMAIL: ${{ secrets.USER_EMAIL }}
   SITE_URL: ${{ vars.SITE_URL }}
-  USER_NAME: ${{ secrets.USER_NAME }}
+  USER_NAME: ${{ vars.USER_NAME }}
 
 jobs:
   build:
