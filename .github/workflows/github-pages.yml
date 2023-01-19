@@ -6,10 +6,10 @@ on:
       - master
 env:
   REPOSITORY: ${{ secrets.REPOSITORY }}
-  USER_NAME: ${{ env.USER_NAME }}
+  USER_NAME: ${{ vars.USER_NAME }}
   USER_EMAIL: ${{ secrets.USER_EMAIL }}
   GP_KEY: ${{ secrets.GP_KEY }}
-  SITE_URL: ${{ env.SITE_URL }}
+  SITE_URL: ${{ vars.SITE_URL }}
   USER_NAME: ${{ secrets.USER_NAME }}
 
 jobs:
