@@ -14,10 +14,13 @@ sudo apt install -y zsh \
      openssh-server \
      curl \
      bat \
-     chromium \
      wget \
      curl \
      htop
+```
+
+```bash
+sudo apt install -y chromium
 ```
 
 ### ohmyzsh
