@@ -28,50 +28,6 @@ const sidebars = {
       type: 'doc',
       id: 'about-it',
       label: 'About it'
-    },
-    {
-      type: 'category',
-      label: 'Coding Problem',
-      items: [
-        'coding-problems/index', 
-        {
-          type: 'category',
-          label: 'Easy',
-          items: [
-            'coding-problems/easy/2022-09-08-easy',
-            'coding-problems/easy/2022-10-06-easy',
-          ]
-        },
-        {
-          type: 'category',
-          label: 'Medium',
-          items: [
-            'coding-problems/medium/2022-09-10-medium',
-          ]
-        },
-        {
-          type: 'category',
-          label: 'Hard',
-          items: [
-            'coding-problems/hard/2022-09-09-hard',
-            'coding-problems/hard/2022-09-11-hard',
-            'coding-problems/hard/2022-09-16-hard',
-            'coding-problems/hard/2022-09-19-hard',
-            'coding-problems/hard/2022-09-20-hard',
-            'coding-problems/hard/2022-09-25-hard',
-          ]
-        },
-        {
-          type: 'category',
-          label: 'codingbat.com',
-          items: ['coding-problems/codingbat.com/make_chocolate']
-        },
-        {
-          type: 'category',
-          label: 'dmoj.ca',
-          items: ['coding-problems/dmoj-ca/tower-of-hanoi']
-        }
-      ]
     }
   ],
   

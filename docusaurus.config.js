@@ -88,12 +88,6 @@ const config = {
             position: 'left'
           },
           {
-            href: '/docs/coding-problems/',
-            label: 'Coding Problems',
-            position: 'left',
-            editUrl: undefined,
-          },
-          {
             label: 'Docker Hub',
             href: `https://hub.docker.com/u/${username}`,
             position: 'right',
