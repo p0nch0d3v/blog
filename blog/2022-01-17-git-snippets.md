@@ -10,17 +10,23 @@ authors: [p0nch0d3v]
 ### Git log
 ```bash
 git log --pretty=oneline --abbrev-commit --graph
+```
+```bash
 git log --pretty --oneline --graph --abbrev-commit --relative-date
 ```
 #### Create alias 
 ```bash
 git config --global alias.graph-log 'log --pretty=oneline --abbrev-commit --graph'
+```
+```bash
 git config --global alias.graph-log 'git log --pretty --oneline --graph --abbrev-commit --relative-date'
 ```
 ---
 ### Git config user
 ```bash
 git config --local user.email ""
+```
+```bash
 git config --local user.name ""
 ```
 
