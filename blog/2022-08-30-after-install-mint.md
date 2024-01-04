@@ -16,7 +16,11 @@ sudo apt install -y zsh \
      bat \
      wget \
      curl \
-     htop
+     htop \
+     nano \
+     rsync \
+     wakeonlan \
+     gnupg
 ```
 
 ```bash
@@ -60,6 +64,9 @@ sudo usermod -aG docker $USER
 ### Google Chrome
 ```bash
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb --output-document /tmp/google-chrome-stable_current_amd64.deb
+```
+```bash
+sudo apt install libu2f-udev
 ```
 ```bash
 sudo dpkg -i /tmp/google-chrome-stable_current_amd64.deb
