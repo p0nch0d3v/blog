@@ -20,7 +20,8 @@ sudo apt install -y zsh \
      nano \
      rsync \
      wakeonlan \
-     gnupg
+     gnupg \
+     sudo
 ```
 
 ```bash
