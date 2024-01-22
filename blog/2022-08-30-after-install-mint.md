@@ -21,7 +21,11 @@ sudo apt install -y zsh \
      rsync \
      wakeonlan \
      gnupg \
-     sudo
+     sudo \
+     gcc \
+     make \
+     linux-headers-amd64 \
+     linux-headers-$(uname -r)
 ```
 
 ```bash
