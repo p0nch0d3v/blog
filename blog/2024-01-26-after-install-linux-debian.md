@@ -20,28 +20,9 @@ Add user to sudoers
 /usr/sbin/usermod -aG sudo [USER]
 ```
 
-As user, install some packages:
-```bash
-sudo apt install -y zsh \
-     neofetch \
-     neovim \
-     git \
-     openssh-server \
-     curl \
-     bat \
-     wget \
-     curl \
-     htop \
-     nano \
-     rsync \
-     wakeonlan \
-     gnupg \
-     sudo \
-     gcc \
-     make \
-     linux-headers-amd64 \
-     linux-headers-$(uname -r)
-```
+--- 
+### [Base packages](/docs/base-debian-distros/#base-packages)
+--- 
 
 Edit login defaults:
 ```bash
@@ -60,8 +41,11 @@ deb http://deb.debian.org/debian/ testing main contrib non-free non-free-firmwar
 deb http://security.debian.org/debian-security testing-security main contrib non-free non-free-firmware
 
 deb http://deb.debian.org/debian/ testing-updates main contrib non-free non-free-firmware
-
 ```
+
+---  
+### [Useful scripts](/docs/base-debian-distros/#useful-scripts)
+--- 
 
 ### [Optional] - Virtualbox
 Download it:

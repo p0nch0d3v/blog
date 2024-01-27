@@ -4,29 +4,11 @@ slug: after-install-mint-21
 tags: [linux, mint, neovim, docker]
 authors: [p0nch0d3v]
 ---
-### Some packages
-
-```bash
-sudo apt install -y zsh \
-     neofetch \
-     neovim \
-     git \
-     openssh-server \
-     curl \
-     bat \
-     wget \
-     curl \
-     htop \
-     nano \
-     rsync \
-     wakeonlan \
-     gnupg \
-     sudo \
-     gcc \
-     make \
-     linux-headers-amd64 \
-     linux-headers-$(uname -r)
-```
+ 
+### [Base packages](/docs/base-debian-distros/#base-packages)
+ 
+### [Useful scripts](/docs/base-debian-distros/#useful-scripts)
+---  
 
 ```bash
 sudo apt install -y chromium

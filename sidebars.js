@@ -28,6 +28,11 @@ const sidebars = {
       type: 'doc',
       id: 'about-it',
       label: 'About it'
+    },
+    {
+      type: 'doc',
+      id: 'base-debian-distros',
+      label: 'Base Debian distos'
     }
   ],
   
