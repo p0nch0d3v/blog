@@ -20,9 +20,7 @@ Add user to sudoers
 /usr/sbin/usermod -aG sudo [USER]
 ```
 
---- 
-### [Base packages](/docs/base-debian-distros/#base-packages)
---- 
+<h3><a target="_blank" href="/docs/base-debian-distros#base-packages">Base packages</a></h3>
 
 Edit login defaults:
 ```bash
@@ -43,9 +41,14 @@ deb http://security.debian.org/debian-security testing-security main contrib non
 deb http://deb.debian.org/debian/ testing-updates main contrib non-free non-free-firmware
 ```
 
----  
-### [Useful scripts](/docs/base-debian-distros/#useful-scripts)
---- 
+<h3><a target="_blank" href="/docs/base-debian-distros#useful-scripts">Useful scripts</a></h3>
+
+<h3><a target="_blank" href="/docs/base-debian-distros#ohmyzsh">ohmyzsh</a></h3>
+
+### Cockpit
+```bash
+sudo apt install -y cockpit cockpit-machines
+```
 
 ### [Optional] - Virtualbox
 Download it:

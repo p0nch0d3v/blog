@@ -5,20 +5,15 @@ tags: [linux, mint, neovim, docker]
 authors: [p0nch0d3v]
 ---
  
-### [Base packages](/docs/base-debian-distros/#base-packages)
+<h3><a target="_blank" href="/docs/base-debian-distros#base-packages">Base packages</a></h3>
  
-### [Useful scripts](/docs/base-debian-distros/#useful-scripts)
----  
+<h3><a target="_blank" href="/docs/base-debian-distros#useful-scripts">Useful scripts</a></h3>
 
 ```bash
 sudo apt install -y chromium
 ```
 
-### ohmyzsh
-
-```bash
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-```
+<h3><a target="_blank" href="/docs/base-debian-distros#ohmyzsh">ohmyzsh</a></h3>
 
 ### SpaceVim
 ```bash
