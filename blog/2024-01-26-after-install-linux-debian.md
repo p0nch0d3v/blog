@@ -35,15 +35,23 @@ Add to `ENV_PATH` the path: `/usr/sbin`
 Edit `/etc/apt/sources.list`
 ```
 deb http://deb.debian.org/debian/ testing main contrib non-free non-free-firmware
-
 deb http://security.debian.org/debian-security testing-security main contrib non-free non-free-firmware
-
 deb http://deb.debian.org/debian/ testing-updates main contrib non-free non-free-firmware
+```
+
+Set time zone:
+```
+sudo timedatectl status --all
+```
+```
+sudo timedatectl set-timezone [ZONE]
 ```
 
 <h3><a target="_blank" href="/docs/base-debian-distros#useful-scripts">Useful scripts</a></h3>
 
 <h3><a target="_blank" href="/docs/base-debian-distros#ohmyzsh">ohmyzsh</a></h3>
+
+
 
 ### Cockpit
 ```bash
