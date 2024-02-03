@@ -51,8 +51,6 @@ sudo timedatectl set-timezone [ZONE]
 
 <h3><a target="_blank" href="/docs/base-debian-distros#ohmyzsh">ohmyzsh</a></h3>
 
-
-
 ### Cockpit
 ```bash
 sudo apt install -y cockpit cockpit-machines
