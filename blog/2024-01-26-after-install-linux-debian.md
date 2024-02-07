@@ -53,7 +53,10 @@ sudo timedatectl set-timezone [ZONE]
 
 ### Cockpit
 ```bash
-sudo apt install -y cockpit cockpit-machines virtinst
+sudo apt install -y cockpit 
+```
+```bash
+sudo apt install -y cockpit-machines virtinst qemu-kvm qemu-utils qemu-block-extra
 ```
 
 ### [Optional] - Virtualbox

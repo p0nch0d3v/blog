@@ -35,6 +35,17 @@ sudo bash ~/scripts-labs/debian_package_update.sh
 ```
 
 ### ohmyzsh
+Install:
 ```bash
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+Change default theme
+```bash
+sed -i 's/ZSH_THEME="robbyrussell"/ZSH_THEME="random"/g' ~/.zshrc
+```
+```bash
+sed -i 's/# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )/ZSH_THEME_RANDOM_CANDIDATES=( "dstufft" "steeef" )/g' ~/.zshrc
+```
+```bash
+exec $SHELL
 ```
