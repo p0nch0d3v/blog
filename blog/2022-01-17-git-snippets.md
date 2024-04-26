@@ -8,28 +8,67 @@ authors: [p0nch0d3v]
 > Here is a set of some git snippets, useful in some way.
 
 ### Git log
-```bash
-git log --pretty=oneline --abbrev-commit --graph
-```
-```bash
-git log --pretty --oneline --graph --abbrev-commit --relative-date
-```
-#### Create alias 
+> Alias:
 ```bash
 git config --global alias.graph-log 'log --pretty=oneline --abbrev-commit --graph'
 ```
+> Use: 
+
 ```bash
-git config --global alias.graph-log 'git log --pretty --oneline --graph --abbrev-commit --relative-date'
+git graph-log
 ```
+
+> Alias:
+```bash
+git config --global alias.graph-log 'log --pretty --oneline --graph --abbrev-commit --relative-date'
+```
+> Use: 
+```bash
+git graph-log
+```
+
+---
+### Refresh with development branch
+> Alias:
+```bash
+git config --global alias.dev '!f() { git add . ; git stash push --message "stash_dev" ; git checkout development ; git pull origin development ; git stash apply stash^{/stash_dev} ; }; f'
+```
+> Use:
+```bash
+git dev
+```
+
+---
+### Commit no verify
+> Alias:
+```bash
+git config --global alias.cnv 'commit --no-verify'
+```
+> Use:
+```bash
+git cnv --message "..."
+```
+
+### Push no verify
+> Alias:
+```bash
+git config --global alias.pnv 'push --no-verify'
+```
+> Use:
+```bash
+git pnv {origin} {branch}
+```
+
 ---
 ### Git config user
 ```bash
-git config --local user.email ""
+git config --local user.email "john.doe@mail.com"
 ```
 ```bash
-git config --local user.name ""
+git config --local user.name "John Doe"
 ```
 
+---
 ### Git hook
 #### Git hook to validate branch name
 ```bash
