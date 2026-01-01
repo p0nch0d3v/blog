@@ -7,7 +7,7 @@ slug: base-debian-distros
 ### Base packages:
 ```bash
 sudo apt install -y zsh \
-     neofetch \
+     fastfetch \
      neovim \
      git \
      openssh-server \
@@ -23,8 +23,18 @@ sudo apt install -y zsh \
      sudo \
      gcc \
      make \
-     linux-headers-amd64 \
+     sshpass
+```
+
+### Optional packages
+```bash
+sudo apt install -y linux-headers-amd64 \
      linux-headers-$(uname -r)
+```
+
+```bash
+sudo apt install -y xrdp \
+     xorgxrdp
 ```
 
 ### Useful scripts
