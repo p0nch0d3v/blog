@@ -7,10 +7,10 @@ authors: [p0nch0d3v]
 # Git snippets
 > Here is a set of some git snippets, useful in some way.
 
-### Delete merged branches
+### Delete merged branches on development branch
 > Code
 ```bash
-git branch --merged | grep -v '\*\|master\|main\|develop' | xargs -n 1 git branch -d
+git branch --merged development | grep -vE "(\*|master|main|develop|UAT|stage|staging)" | xargs -n 1 git branch -d
 ```
 
 ### Git log
